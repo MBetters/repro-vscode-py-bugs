@@ -19,4 +19,3 @@ if [ ! -d /home/vagrant/miniconda3/envs/${PWD##*/} ]; then
     conda create -y -n ${PWD##*/} python=3.7.4 -f condaenv.yml
     conda activate ${PWD##*/}
 fi
-

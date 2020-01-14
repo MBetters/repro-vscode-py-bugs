@@ -5,17 +5,17 @@
         "**/__pycache__": true
     },
     "terminal.integrated.env.linux": {
-        "PATH": "/home/vagrant/miniconda3/envs/myProject/bin:${env:PATH}"
+        "PATH": "/home/vagrant/miniconda3/envs/repro-vscode-py-bugs/bin:${env:PATH}"
     },
     "python.condaPath": "/home/vagrant/miniconda3/condabin/conda",
     "python.venvPath": "/home/vagrant/miniconda3/envs",
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python.terminal.activateEnvironment": true,
     "python.venvFolders": [
-        "/home/vagrant/miniconda3/envs/myProject"
+        "/home/vagrant/miniconda3/envs/repro-vscode-py-bugs"
     ],
-    "python.pythonPath": "/home/vagrant/miniconda3/envs/myProject/bin/python",
-    "python.linting.pylintPath": "/home/vagrant/miniconda3/envs/myProject/bin/pylint",
+    "python.pythonPath": "/home/vagrant/miniconda3/envs/repro-vscode-py-bugs/bin/python",
+    "python.linting.pylintPath": "/home/vagrant/miniconda3/envs/repro-vscode-py-bugs/bin/pylint",
     "python.linting.enabled": true,
     "python.testing.nosetestsEnabled": false,
     "python.testing.unittestEnabled": false,
